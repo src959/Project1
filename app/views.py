@@ -4,3 +4,6 @@ from django.http import HttpResponse
 def sandeep(request):
     s="<h1> Hello This is first project and this is nursery level.. </h1>"
     return HttpResponse(s)
+
+def hello(request):
+    return render(request,'hello.html')
